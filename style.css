@@ -95,6 +95,11 @@ section {
   color: #fff;
   font-size: 1.7em;
   padding-right: 30px;
+  transition: 0.6s ease;
+}
+
+.social-icon a:hover {
+  color: #601cfc;
 }
 
 .title {
