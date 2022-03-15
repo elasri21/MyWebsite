@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/main.css">
     <title>Mohamed Elasri</title>
 </head>
 <body>
@@ -16,6 +16,11 @@
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
         </nav>
+        <div class="toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </header>
     <section class="main">
         <div>
@@ -79,7 +84,7 @@
                     <p class="project-category">social media dashboard with theme switcher master</p>
                     <strong class="project-title">
                         <span>Social Media Dashboard</span>
-                        <a href="https://www.frontendmentor.io/solutions/socialmediadashboardwiththemeswitchermaster-hD8-2oMjc" target="_blank" class="more-details">More-Details</a>
+                        <a href="https://elasri21.github.io/social-media/" target="_blank" class="more-details">More-Details</a>
                     </strong>
                 </div>
             </div>
@@ -91,7 +96,7 @@
                     <p class="project-category">pricing component with toggle master: using pure html, css and js</p>
                     <strong class="project-title">
                         <span>Pricing Component</span>
-                        <a href="https://www.frontendmentor.io/solutions/pricingcomponentwithtogglemaster-using-pure-html-css-and-js-cEbzVeSk-" target="_blank" class="more-details">More-Details</a>
+                        <a href="https://elasri21.github.io/pricing/" target="_blank" class="more-details">More-Details</a>
                     </strong>
                 </div>
             </div>
@@ -103,7 +108,7 @@
                     <p class="project-category">built forms with pure html, css and js</p>
                     <strong class="project-title">
                         <span>Forms</span>
-                        <a href="https://www.frontendmentor.io/solutions/built-with-pure-html-css-and-js-ZEiZt8IMX" target="_blank" class="more-details">More-Details</a>
+                        <a href="https://elasri21.github.io/sign-up/" target="_blank" class="more-details">More-Details</a>
                     </strong>
                 </div>
             </div>
@@ -115,7 +120,7 @@
                     <p class="project-category">Room homepage master:using html, css and js</p>
                     <strong class="project-title">
                         <span>Room Homepage</span>
-                        <a href="https://www.frontendmentor.io/solutions/roomhomepagemasterusing-html-css-and-js-DOYkQx-jp" target="_blank" class="more-details">More-Details</a>
+                        <a href="https://elasri21.github.io/room-homepage/" target="_blank" class="more-details">More-Details</a>
                     </strong>
                 </div>
             </div>
@@ -127,7 +132,7 @@
                     <p class="project-category">single price grid component master: css, css-grid and html</p>
                     <strong class="project-title">
                         <span>single price</span>
-                        <a href="https://www.frontendmentor.io/solutions/singlepricegridcomponentmaster-css-cssgrid-and-html-YIz9DdDEh" target="_blank" class="more-details">More-Details</a>
+                        <a href="https://elasri21.github.io/single-price/" target="_blank" class="more-details">More-Details</a>
                     </strong>
                 </div>
             </div>
@@ -159,7 +164,17 @@
             <a href="https://www.instagram.com/simo5904/" target="_blank"><i class="fab fa-instagram"></i></a>
             <a href="https://twitter.com/ELASRI08455745" target="_blank"><i class="fab fa-twitter"></i></a>
             <a href="https://github.com/elasri21" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.frontendmentor.io/profile/elasri21" target="_blank">|&lt;</a>
         </div>
     </footer>
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+    <script>
+        $(".toggle").on("click", function() {
+            $(".navigation").fadeToggle();
+        })
+    </script>
 </body>
 </html>
